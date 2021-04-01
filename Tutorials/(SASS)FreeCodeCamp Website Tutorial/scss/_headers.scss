@@ -44,6 +44,7 @@
         left: 0;
         right: 0;
         bottom: -30px;
+        border-radius: 10px;
         background: linear-gradient(to right, $limeGreen, $brightCyan);
         opacity: 0;
         transition: opacity 300ms ease-in-out;

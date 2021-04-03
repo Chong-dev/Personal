@@ -7,7 +7,7 @@ const fadeElems = document.querySelectorAll('.has-fade');
 btnHamburger.addEventListener('click', function() { // Toggle Hamburger Menu
 
   if (header.classList.contains('open')) {  //  Toggle Close
-      body.classList.remove('.no-scroll');
+      body.classList.remove('.noscroll');
       header.classList.remove('open');
 
       fadeElems.forEach(function(element) {
@@ -18,7 +18,7 @@ btnHamburger.addEventListener('click', function() { // Toggle Hamburger Menu
   }
 
   else {  //  Toggle Open
-    body.classList.add('.no-scroll');
+    body.classList.add('.noscroll');
     header.classList.add('open');
 
     fadeElems.forEach(function(element) {
